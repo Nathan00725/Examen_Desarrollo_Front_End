@@ -5,6 +5,7 @@ import { Home } from "./components/Home"
 import { NavBar } from "./components/Navbar"
 import { Rifle_Asalto } from "./components/Rifle_Asalto"
 import { Subfusil } from "./components/Subfusil"
+import { Sub_F_1 } from "./components/Sub_F_1"
 import { Escopeta } from "./components/Escopeta"
 import { Presicion } from "./components/Presicion"
 import './styles.css'
@@ -27,7 +28,7 @@ function App() {
         <Route path='/src/components/Subfusil.jsx' element={ <Subfusil/> }></Route>
         <Route path='/src/components/Escopeta.jsx' element={ <Escopeta/> }></Route>
         <Route path='/src/components/Presicion.jsx' element={ <Presicion/> }></Route>
-        
+        <Route path='/src/components/Subfusil.jsx./components/Sub_F_1' element={ <Sub_F_1/> }></Route>
         </Routes>
 
         <Footer></Footer>        
